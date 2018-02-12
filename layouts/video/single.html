@@ -1,5 +1,22 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<small>{{ .Date.Format "2006.1.2" }}</small>
-{{ .Content }}
+<div class="container">
+  <div class="content-header">
+    <h1>{{ .Title }}</h1>
+    {{ if isset .Params "video-title" -}}
+      <strong class="subtitle">{{ index .Params "video-title" }}</strong>
+      <br>
+    {{ end }}
+    <small>Found around {{ .Date.Format "January 2, 2006" }}</small>
+  </div>
+  <br>
+  <div class="video-feature">
+    <iframe
+      src="{{ index .Params "source" }}?rel=0&playbackRate=1.5"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <br>
+  {{ .Content }}
+</div>
 {{ end }}

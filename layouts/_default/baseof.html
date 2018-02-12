@@ -8,16 +8,11 @@
     {{ or .Params.title .Title .Site.Title }}
   {{ end }}</title>
   <script>window.DEFAULT_TITLE="{{ .Site.Title }}";</script>
-  <style>
-  * { box-sizing: border-box; }
-  pre { white-space: pre-wrap; word-wrap: break-word; }
-  </style>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body style="font-family: serif; font-size: 16px; margin: 0;">
-  <div id="feature">
-    {{- block "feature" . -}}
-    {{- end -}}
+  <div class="container header">
+    <div class="brand-name"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></div>
   </div>
   <div id="main">
     <div id="init-params" data-value="{{ .Params | jsonify }}"></div>

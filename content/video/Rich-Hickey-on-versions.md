@@ -1,11 +1,18 @@
 ---
 title: "Rich Hickey on Versions"
 date: 2018-02-11T16:56:47-06:00
-source: "https://youtube.com"
+video-title: "Spec-ulation Keynote - Rich Hickey"
+source: "https://www.youtube.com/embed/oyLBGkS5ICk"
 draft: true
 author: "Cole Lawrence"
 type: "video"
-
+tags: [
+  "by:rich hickey",
+  "lecture",
+  "lang:clojure",
+  "subj:library-dev",
+  "humor"
+]
 timemarks: [
   "0:00 - It starts"
 ]

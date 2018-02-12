@@ -46,5 +46,9 @@ type PageObjectData = {
 type PageObject = {
   Title: string
   DatePublished: string
+  DatePublishedDisplay: string
+  Params: {
+    type?: string
+  },
   Data: PageObjectData
 }

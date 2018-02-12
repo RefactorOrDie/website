@@ -29,34 +29,41 @@ function navigateToHref(toHref: string, shouldPush: boolean = true) {
     // debug("click link", evt.target.href, sliced)
     try {
       fetch((toPathname + '/index.json').replace('//', '/'))
-      .then(resp => resp.json())
-      .then((resp: PageObject) => {
-        if (shouldPush) {
-          history.pushState(Object.assign({ pushed: toHref }, resp), resp.Title, toHref)
-        }
-        debug("clicked", resp, window.history.state)
-        render(resp)
-        addClickListeners()
-      })
-      .catch(err => {
-        console.log("we lose", err)
-      })
+        .then(resp => resp.json())
+        .then((resp: PageObject) => {
+          debug("clicked", resp, window.history.state)
+          mainElt.innerHTML = renderHTML(resp)
+          if (shouldPush) {
+            history.pushState(Object.assign({ href: toHref }, resp), resp.Title, toHref)
+          }
+          addClickListeners()
+        })
+        .catch(err => {
+          console.log("we lose promise catch; navigating manually", err)
+          window.location.href = toHref
+        })
     } catch (err) {
-      console.log("we lose", err)
+      console.log("we lose try-catch", err)
+      return false
     }
-      return true
+    return true
   }
 }
 fetch((window.location.pathname + '/index.json').replace('//', '/'))
   .then(resp => resp.json())
   .then((resp: PageObject) => {
-    history.replaceState(resp, resp.Title)
+    history.replaceState(Object.assign({ href: window.location.href }, resp), resp.Title)
+    debug("loaded", resp)
   })
 
 window.addEventListener("popstate", function (evt) {
   debug("popstate", evt.state)
-  render(evt.state)
-  addClickListeners()
+  try {
+    mainElt.innerHTML = renderHTML(evt.state)
+    addClickListeners()
+  } catch {
+    window.location.href = evt.state.href
+  }
 })
 
 
