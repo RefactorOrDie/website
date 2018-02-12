@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refactor Or Die</title>
+    <link>https://refactorordie.github.io/website/public/</link>
+    <description>Recent content on Refactor Or Die</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 11 Feb 2018 16:56:47 -0600</lastBuildDate>
+    
+	<atom:link href="https://refactorordie.github.io/website/public/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rich Hickey on Versions</title>
+      <link>https://refactorordie.github.io/website/public/video/rich-hickey-on-versions/</link>
+      <pubDate>Sun, 11 Feb 2018 16:56:47 -0600</pubDate>
+      
+      <guid>https://refactorordie.github.io/website/public/video/rich-hickey-on-versions/</guid>
+      <description>I saw this video while {}
+I was inspired by it&amp;rsquo;s use of {}
+It reminds me of Raph Levien talking about Xi</description>
+    </item>
+    
+    <item>
+      <title>Raph Levien and Xi</title>
+      <link>https://refactorordie.github.io/website/public/video/raph-levien-and-xi/</link>
+      <pubDate>Sun, 11 Feb 2018 15:45:14 -0600</pubDate>
+      
+      <guid>https://refactorordie.github.io/website/public/video/raph-levien-and-xi/</guid>
+      <description>Hello
+It reminds me of Rich Hickey talking about Versioning</description>
+    </item>
+    
+  </channel>
+</rss>

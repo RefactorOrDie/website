@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/video/rich-hickey-on-versions/</loc>
+    <lastmod>2018-02-11T16:56:47-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/video/raph-levien-and-xi/</loc>
+    <lastmod>2018-02-11T15:45:14-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/byrich-hickey/</loc>
+    <lastmod>2018-02-11T16:56:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/editors/</loc>
+    <lastmod>2018-02-11T15:45:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/humor/</loc>
+    <lastmod>2018-02-11T16:56:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/langclojure/</loc>
+    <lastmod>2018-02-11T16:56:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/langrust/</loc>
+    <lastmod>2018-02-11T15:45:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/lecture/</loc>
+    <lastmod>2018-02-11T16:56:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/</loc>
+    <lastmod>2018-02-11T16:56:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/show-and-tell/</loc>
+    <lastmod>2018-02-11T15:45:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/subjapplication/</loc>
+    <lastmod>2018-02-11T15:45:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/subjarchitecture/</loc>
+    <lastmod>2018-02-11T15:45:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/subjlibrary-dev/</loc>
+    <lastmod>2018-02-11T16:56:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/tags/</loc>
+    <lastmod>2018-02-11T16:56:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://refactorordie.github.io/website/public/video/</loc>
+    <lastmod>2018-02-11T16:56:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

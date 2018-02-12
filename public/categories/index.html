@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" style="background: #111; color: #f2f2f2; width: 100%;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Categories
+  </title>
+  <script>window.DEFAULT_TITLE="Refactor Or Die";</script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body style="font-family: serif; font-size: 16px; margin: 0;">
+  <div class="container header">
+    <div class="brand-name"><a href="https://refactorordie.github.io/website/public">Refactor Or Die</a></div>
+  </div>
+  <div id="main">
+    <div id="init-params" data-value="null"></div>
+    
+<div class="container">
+  <h1>Posts</h1>
+  
+</div>
+
+  </div>
+  <br>
+  <hr>
+  <pre id="debug">
+    <pre data-type="json">
+      {"Kind":"taxonomyTerm","Pages":null,"Resources":null,"Content":"","Summary":"","TableOfContents":"","Aliases":null,"Images":null,"Videos":null,"Truncated":false,"Draft":false,"Status":"","PublishDate":"0001-01-01T00:00:00Z","ExpiryDate":"0001-01-01T00:00:00Z","Weight":0,"Markup":"","Layout":"","Frontmatter":null,"File":{},"GitInfo":null,"Description":"","Keywords":null,"Data":{"Index":{},"OrderedIndex":{},"Pages":null,"Plural":"categories","Singular":"category","Terms":{}},"Date":"0001-01-01T00:00:00Z","Lastmod":"0001-01-01T00:00:00Z","Sitemap":{"ChangeFreq":"","Priority":0,"Filename":""},"URL":"","Permalink":"","Slug":"","Section":""}
+    </pre>
+  </pre>
+  <script src="/js/fetch.js"></script>
+  <script src="/js/render.js"></script>
+  <script src="/js/spa.js"></script>
+  <script>
+  Array
+  .from(document.querySelectorAll("pre[data-type=json]"))
+  .forEach(function (pre) {
+    pre.textContent = JSON.stringify(JSON.parse(pre.textContent), null, 2)
+  })
+  </script>
+</body>
+</html>

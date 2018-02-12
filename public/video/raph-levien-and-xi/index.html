@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" style="background: #111; color: #f2f2f2; width: 100%;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Raph Levien and Xi
+  </title>
+  <script>window.DEFAULT_TITLE="Refactor Or Die";</script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body style="font-family: serif; font-size: 16px; margin: 0;">
+  <div class="container header">
+    <div class="brand-name"><a href="https://refactorordie.github.io/website/public">Refactor Or Die</a></div>
+  </div>
+  <div id="main">
+    <div id="init-params" data-value="{&#34;author&#34;:&#34;Cole Lawrence&#34;,&#34;date&#34;:&#34;2018-02-11T15:45:14-06:00&#34;,&#34;draft&#34;:true,&#34;expirydate&#34;:&#34;0001-01-01T00:00:00Z&#34;,&#34;iscjklanguage&#34;:false,&#34;lastmod&#34;:&#34;2018-02-11T15:45:14-06:00&#34;,&#34;publishdate&#34;:&#34;2018-02-11T15:45:14-06:00&#34;,&#34;source&#34;:&#34;https://www.youtube.com/embed/4FbQre9VQLI&#34;,&#34;tags&#34;:[&#34;show-and-tell&#34;,&#34;subj:application&#34;,&#34;subj:architecture&#34;,&#34;lang:rust&#34;,&#34;editors&#34;],&#34;timemarks&#34;:[&#34;0:00 - It starts&#34;],&#34;title&#34;:&#34;Raph Levien and Xi&#34;,&#34;type&#34;:&#34;video&#34;}"></div>
+    
+<div class="container">
+  <div class="content-header">
+    <h1>Raph Levien and Xi</h1>
+    
+    <small>Found around February 11, 2018</small>
+  </div>
+  <br>
+  <div class="video-feature">
+    <iframe
+      src="https://www.youtube.com/embed/4FbQre9VQLI?rel=0&playbackRate=1.5"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <br>
+  <p>Hello</p>
+
+<p>It reminds me of <a href="https://refactorordie.github.io/website/public/video/rich-hickey-on-versions/">Rich Hickey talking about Versioning</a></p>
+
+</div>
+
+  </div>
+  <br>
+  <hr>
+  <pre id="debug">
+    <pre data-type="json">
+      {"Kind":"page","Pages":null,"Resources":null,"Content":"\u003cp\u003eHello\u003c/p\u003e\n\n\u003cp\u003eIt reminds me of \u003ca href=\"https://refactorordie.github.io/website/public/video/rich-hickey-on-versions/\"\u003eRich Hickey talking about Versioning\u003c/a\u003e\u003c/p\u003e\n","Summary":"Hello\nIt reminds me of Rich Hickey talking about Versioning","TableOfContents":"","Aliases":null,"Images":null,"Videos":null,"Truncated":false,"Draft":true,"Status":"","PublishDate":"2018-02-11T15:45:14-06:00","ExpiryDate":"0001-01-01T00:00:00Z","Weight":0,"Markup":"markdown","Layout":"","Frontmatter":null,"File":{"ReadableFile":{}},"GitInfo":null,"Description":"","Keywords":[],"Data":{"Pages":null},"Date":"2018-02-11T15:45:14-06:00","Lastmod":"2018-02-11T15:45:14-06:00","Sitemap":{"ChangeFreq":"","Priority":-1,"Filename":""},"URL":"","Permalink":"","Slug":"","Section":""}
+    </pre>
+  </pre>
+  <script src="/js/fetch.js"></script>
+  <script src="/js/render.js"></script>
+  <script src="/js/spa.js"></script>
+  <script>
+  Array
+  .from(document.querySelectorAll("pre[data-type=json]"))
+  .forEach(function (pre) {
+    pre.textContent = JSON.stringify(JSON.parse(pre.textContent), null, 2)
+  })
+  </script>
+</body>
+</html>

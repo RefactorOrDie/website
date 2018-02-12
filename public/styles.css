@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+pre { white-space: pre-wrap; word-wrap: break-word; }
+
+a {
+  color: lightblue;
+}
+a:visited {
+  color: lightpink;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  transition: 10s background-color;
+}
+
+body.turn-green {
+  background-color: darkgreen;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 4rem;
+  max-width: 52rem;
+  position: relative;
+}
+
+.container iframe {
+  width: 100vw;
+  height: calc(100vw * 0.5625);
+  margin: 0 -4rem;
+}
+
+@media (min-width: 52rem) {
+  .container iframe {
+    width: 52rem;
+    height: calc(52rem * 0.5625);
+    margin: 0 -4rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .container {
+    padding: 0 2rem;
+  }
+  .container iframe {
+    margin: 0 -2rem;
+  }
+}
+
+.header {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.header .brand-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+body.header-light .header { color: #111; }
+body.header-dark .header { color: #f9f9f9; }
