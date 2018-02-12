@@ -1,0 +1,9 @@
+{{define "main"}}
+{
+  "Title": {{ .Title | jsonify }},
+  "DatePublished": {{ .Date.Format "2006-01-02T15:04:05-0700" | jsonify }},
+  "Params": {{ $.Params | jsonify }},
+  {{ if .Author -}} "Author": {{ .Author | jsonify }}, {{- end}}
+  "Data": {{ jsonify . }}
+}
+{{end}}

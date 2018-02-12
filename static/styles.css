@@ -1,0 +1,15 @@
+a {
+  color: lightblue;
+}
+a:visited {
+  color: lightpink;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  transition: 10s background-color;
+}
+
+body.turn-green {
+  background-color: darkgreen;
+}

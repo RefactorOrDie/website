@@ -1,0 +1,11 @@
+{{- define "main" -}}
+{
+  "Params": {{ .Params | jsonify }},
+  "Pages": [
+  {{- range .Data.Pages }}
+  {{ jsonify . }},
+  {{- end }}
+  null
+  ]
+}
+{{- end -}}

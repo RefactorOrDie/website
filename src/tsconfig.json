@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es3",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "../static/js"
+  },
+  "files": [
+    "hugo.d.ts",
+    "render.ts",
+    "spa.ts",
+    "fetch.js"
+  ]
+}

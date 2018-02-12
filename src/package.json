@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "typescript": "next"
+  }
+}

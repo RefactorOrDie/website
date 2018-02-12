@@ -1,0 +1,16 @@
+title = "Refactor Or Die"
+
+baseURL = "./"
+footnoteReturnLinkContents = "↩"
+staticDir = ["static"]
+
+newContentEditor = "code"
+
+pygmentsUseClasses = true
+
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+  page = ["HTML", "JSON"]
+
+# [permalinks]
+#   post = "/:year/:month/:title/"
