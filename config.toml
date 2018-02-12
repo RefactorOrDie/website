@@ -1,6 +1,6 @@
 title = "Refactor Or Die"
 
-baseURL = "./"
+baseURL = ""
 footnoteReturnLinkContents = "↩"
 staticDir = ["static"]
 
