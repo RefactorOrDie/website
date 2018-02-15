@@ -1,6 +1,6 @@
 title = "Refactor Or Die"
 
-baseURL = ""
+baseURL = "https://refactorordie.com"
 footnoteReturnLinkContents = "↩"
 staticDir = ["static"]
 
@@ -11,6 +11,3 @@ pygmentsUseClasses = true
 [outputs]
   home = ["HTML", "JSON", "RSS"]
   page = ["HTML", "JSON"]
-
-# [permalinks]
-#   post = "/:year/:month/:title/"

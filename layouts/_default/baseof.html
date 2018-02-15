@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme" content="#45aafe">
   <title>{{ block "title" . }}
     {{ or .Params.title .Title .Site.Title }}
   {{ end }}</title>
   <script>window.DEFAULT_TITLE="{{ .Site.Title }}";</script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700|Libre+Baskerville" rel="stylesheet">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/styles.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
 </head>
 <body>
   <div class="container header">
@@ -21,15 +22,15 @@
     {{ end }}
   </div>
   <br>
-  <hr>
+  <br>
+  <br>
+  <br>
   <pre id="debug" style="display: none">
     <pre data-type="json">
       {{ jsonify . }}
     </pre>
   </pre>
-  <script src="{{ .Site.BaseURL }}/js/fetch.js"></script>
-  <script src="{{ .Site.BaseURL }}/js/render.js"></script>
-  <script src="{{ .Site.BaseURL }}/js/spa.js"></script>
+  <script src="{{ .Site.BaseURL }}/js/script.js"></script>
   <script>
   Array
   .from(document.querySelectorAll("pre[data-type=json]"))

@@ -1,9 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "node-sass": "node-sass -q --output-style compact --include-path ./styles styles/index.scss ../static/css/style.css",
+    "compile": "npm run tsc && npm run node-sass"
   },
   "dependencies": {
+    "node-sass": "^4.7.2",
     "typescript": "next"
   }
 }
