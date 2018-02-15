@@ -1,8 +1,8 @@
 ---
 title: "Raph Levien and Xi"
-date: 2018-02-11T15:45:14-06:00
+date: 2018-01-10T15:45:14-06:00
 source: "https://www.youtube.com/embed/4FbQre9VQLI"
-draft: true
+draft: false
 author: "Cole Lawrence"
 type: "video"
 tags: [
@@ -17,7 +17,4 @@ timemarks: [
 ]
 ---
 
-Hello
-
-
-It reminds me of [Rich Hickey talking about Versioning]({{< ref "Rich-Hickey-on-versions.md" >}})
+Example link to [Rich Hickey talking about Versioning]({{< ref "Rich-Hickey-on-versions.md" >}})
