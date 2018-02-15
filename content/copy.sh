@@ -1,3 +1,6 @@
+# Although this file is no longer relevant, it might be useful reference
+# for other complex data trees I want to make later on with tags.
+
 PREV=$PWD
 cd $(dirname $0)
 
