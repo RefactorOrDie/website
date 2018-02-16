@@ -26,6 +26,28 @@ html {
   letter-spacing: 1px;
 }
 
+* + .type {
+  margin-left: .5em;
+}
+
+.type {
+  font-size: .6em;
+  padding: .2em;
+  border-radius: .1em;
+  display: inline-block;
+  vertical-align: middle;
+
+  &.type-video {
+    background: purple;
+    color: orchid;
+  }
+
+  &.type-book {
+    background: yellowgreen;
+    color: darkgreen;
+  }
+}
+
 body {
   margin: 0;
 }

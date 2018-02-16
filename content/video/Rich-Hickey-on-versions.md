@@ -1,5 +1,6 @@
 ---
 title: "Rich Hickey on Versions"
+short: "Rich dissects the principle purpose of versioning and challenges traditional thinking"
 date: 2017-08-20T16:56:47-06:00
 video-title: "Spec-ulation Keynote - Rich Hickey"
 source: "https://www.youtube.com/embed/oyLBGkS5ICk"

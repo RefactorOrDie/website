@@ -1,11 +1,11 @@
 
 {{ define "main" }}
 <div class="container">
-  <h1>Marks 🔖</h1>
+  <h1>All Marks 🔖</h1>
   {{ range .Data.Pages }}
     <article>
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      {{ .Content }}
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a> <span class="type type-{{ index .Params "type" }}">{{ index .Params "type" }}</span></h2>
+      {{ or (index .Params "short") .Content }}
     </article>
   {{ end }}
 </div>
