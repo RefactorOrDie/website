@@ -3,7 +3,7 @@ title: "Scott Wlaschin - Functional Design Patterns"
 short: "Scott challenges his audience to understand functional programming"
 date: 2016-11-20T16:56:47-06:00
 video-title: "Functional programming design patterns by Scott Wlaschin"
-source: "https://www.youtube.com/watch?v=E8I19uA-wGY"
+source: "https://www.youtube.com/embed/E8I19uA-wGY"
 draft: false
 author: "Cole Lawrence"
 type: "video"
